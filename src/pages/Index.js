@@ -6,7 +6,7 @@ import Circles from '../components/Circles';
 
 export default function Index() {
   return (
-    <div className='bg-bg md:px-8 flex flex-col items-center justify-center '>
+    <div className='bg-bg md:px-8 flex flex-col items-center justify-center gap-8'>
       <div className='min-h-screen w-3/4 flex flex-row justify-evenly items-center'>
         <div className='flex flex-col gap-4'>
           <h1 className='lg:text-4xl text-2xl'>Hi! I'm</h1>
