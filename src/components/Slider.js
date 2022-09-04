@@ -13,7 +13,7 @@ export default function Slider() {
       <ProjectCard color="white" title="Software Supply Chain Attacks" tags={['Research', 'Cybersecurity']} link="https://github.com/aaronthechen/software-supply-chain-attack-tools">
         A survey paper detailing a comprehensive recount of software supply chain attacks.
       </ProjectCard>
-      <ProjectCard color="white" title="Personal Website" tags={['React', 'Tailwind']}>
+      <ProjectCard color="white" title="Personal Website" tags={['React', 'Tailwind']} link="https://github.com/aaronthechen/personal-website">
         This current website! Design inspired by Bauhaus aesthetics and built with React.
       </ProjectCard>
     </div>
