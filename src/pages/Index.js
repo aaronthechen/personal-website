@@ -10,7 +10,7 @@ export default function Index() {
       <div className='min-h-screen w-3/4 flex flex-row justify-evenly items-center'>
         <div className='flex flex-col gap-4'>
           <h1 className='lg:text-4xl text-2xl'>Hi! I'm</h1>
-          <h1 className='font-bold lg:text-8xl text-6xl underline decoration-2'>Aaron Chen</h1>
+          <h1 className='font-bold lg:text-8xl text-6xl underline underline-offset-2 decoration-2'>Aaron Chen</h1>
           <h2 className='text-xl'>Programmer, Designer, Learner</h2>
           <div className='flex flex-row gap-4'>
             <HashLink className='font-light hover:font-bold w-fit' smooth to="/#contact">
@@ -28,7 +28,7 @@ export default function Index() {
 
       <div className='min-h-screen w-3/4 flex lg:flex-row flex-col gap-8 items-center'>
         <div className='flex flex-col gap-8 text-xl'>
-          <h1 className='font-bold lg:text-8xl text-6xl underline decoration-2'>About Me</h1>
+          <h1 className='font-bold lg:text-8xl text-6xl underline underline-offset-2 decoration-2'>About Me</h1>
           <div className='flex flex-col gap-4'>
             <p>Ever since I was a child, I've loved the process of learning. From art history to computer science, I believe that any field of study can be a valuable asset.</p>
             <p>I'm currently a junior at Clements High School, participating in the varsity Orchestra group, CS Club, Mu Alpha Theta, and a variety of other clubs.</p>
@@ -40,12 +40,12 @@ export default function Index() {
       </div>
 
       <div className='min-h-screen w-3/4 flex flex-col justify-center items-center gap-8'>
-        <h1 className='font-bold lg:text-8xl text-6xl underline decoration-2'>Projects</h1>
+        <h1 className='font-bold lg:text-8xl text-6xl underline underline-offset-2 decoration-2'>Projects</h1>
         <Slider />
       </div>
 
       <div id='contact' className='min-h-screen flex flex-col justify-center items-center gap-8'>
-        <h1 className='font-bold lg:text-8xl text-6xl underline decoration-2'>Contact Me</h1>
+        <h1 className='font-bold lg:text-8xl text-6xl underline underline-offset-2 decoration-2'>Contact Me</h1>
         <div className="flex flex-row text-2xl gap-8">
           <a className='hover:font-bold hover:text-red w-fit' href="mailto:aaronchen31415@gmail.com" target="_blank" rel="noreferrer">Email</a>
           <a className='hover:font-bold w-fit' href="https://github.com/aaronthechen" target="_blank" rel="noreferrer">GitHub</a>
